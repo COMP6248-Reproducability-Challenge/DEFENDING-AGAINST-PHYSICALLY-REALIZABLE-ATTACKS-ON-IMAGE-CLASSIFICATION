@@ -7,6 +7,27 @@ from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
 import torch.optim as optim
 
+class Network(nn.Module):
+
+    def __init__(self):
+        super().__init__()
+        
+        self.conv1 = nn.Conv2d(3, 64, kernel_size=8, stride=2, padding=3)
+        self.conv2 = nn.Conv2d(64, 128, kernel_size=6, stride=2)
+        self.conv3 = nn.Conv2d(128, 128, kernel_size=5)
+        self.relu = nn.ReLU()
+        self.fc = nn.Linear(512, 16)
+        
+
+    def forward(self, x):
+        x = self.relu(self.conv1(x))
+        x = self.relu(self.conv2(x))
+        x = self.relu(self.conv3(x))
+        x = torch.flatten(x, 1)
+        output = self.fc(x)
+
+        return output
+
 class Model():
     def __init__(self):
       self.device = 'cuda: 0' if torch.cuda.is_available() else 'cpu'

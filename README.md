@@ -1,5 +1,5 @@
 # DEFENDING AGAINST PHYSICALLY REALIZABLE ATTACKS ON IMAGE CLASSIFICATION
-This repository is reproduce code about the article *DEFENDING AGAINST physical REALIZABLE ATTACKS ON IMAGE CLASSIFICATION*
+This repository is reproduce code about the article *DEFENDING AGAINST PHYSICAL REALIZABLE ATTACKS ON IMAGE CLASSIFICATION*
 
 **Original Paper**: Wu, T., Tong, L., & Vorobeychik, Y. (2019). Defending Against Physically Realizable Attacks on Image Classification. arXiv preprint arXiv:1909.09552, Available: https://arxiv.org/pdf/1909.09552.pdf
 

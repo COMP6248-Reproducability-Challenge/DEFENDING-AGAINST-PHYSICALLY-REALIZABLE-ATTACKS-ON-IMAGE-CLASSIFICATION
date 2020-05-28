@@ -1,5 +1,9 @@
 # DEFENDING AGAINST PHYSICALLY REALIZABLE ATTACKS ON IMAGE CLASSIFICATION
 This repository is reproduce code about the article *DEFENDING AGAINST PHYSICAL REALIZABLE ATTACKS ON IMAGE CLASSIFICATION*.
+
+**Original Paper**: Wu, T., Tong, L., & Vorobeychik, Y. (2019). Defending Against Physically Realizable Attacks on Image Classification. arXiv preprint arXiv:1909.09552, Available: https://arxiv.org/pdf/1909.09552.pdf
+
+**Original Code**: https://github.com/tongwu2020/phattacks
 ```
 The code for sign can found in './Sign'. 
 ROA.py is used to generate the attack images. 
@@ -10,10 +14,6 @@ The code of ROA with two algorithms can be found in model.py
 ```
 The code for VGGface can found in './VGGface'. 
 ```
-
-**Original Paper**: Wu, T., Tong, L., & Vorobeychik, Y. (2019). Defending Against Physically Realizable Attacks on Image Classification. arXiv preprint arXiv:1909.09552, Available: https://arxiv.org/pdf/1909.09552.pdf
-
-**Original Code**: https://github.com/tongwu2020/phattacks
 
 ## Dataset: 
 * VGGface and LISA can be found: https://github.com/tongwu2020/phattacks/releases/tag/Data%26Model

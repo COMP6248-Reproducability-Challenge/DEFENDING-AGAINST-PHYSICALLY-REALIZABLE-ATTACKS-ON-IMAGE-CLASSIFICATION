@@ -19,7 +19,9 @@ The code for VGGface can found in './VGGface'.
 * VGGface and LISA can be found: https://github.com/tongwu2020/phattacks/releases/tag/Data%26Model
 
 ## Pretrained_model:
-* Weight of Original Model can be found: https://drive.google.com/file/d/1VXNEeivr_U9o2pf-YmWz4wgy2KoZvYlK/view?usp=sharing
+* Weight of LISA DOA Model can be found: ./Sign/model_DOA.pkl
+* Weight of LISA Original Model can be found: ./Sign/model.pkl
+* Weight of VGG Model can be found: https://drive.google.com/file/d/1VXNEeivr_U9o2pf-YmWz4wgy2KoZvYlK/view?usp=sharing
 
 ## Authors
 * **CHi Xu** [cx1g19@soton.ac.uk]()
